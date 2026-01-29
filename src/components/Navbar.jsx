@@ -31,9 +31,12 @@ const Navbar = () => {
       {/* Logo */}
       <div className="logo">
         <h1
-          className={`text-2xl md:text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-red-400 to-orange-200 transition-colors duration-300`}
+          className={`text-2xl md:text-3xl font-extrabold transition-colors duration-300`}
         >
-          Portfolio
+          <span className="text-amber-600">Port</span>
+          <span className={`${isScrolled ? "text-black" : "text-white"}`}>
+            folio
+          </span>
         </h1>
       </div>
 

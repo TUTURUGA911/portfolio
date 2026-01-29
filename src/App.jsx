@@ -151,8 +151,8 @@ function App() {
                 </div>
                 <div className="mt-8 text-center">
                   <a
-                    className="bg-amber-800 p-3 rounded-lg block border border-zinc-600 hover:bg-amber-600"
-                    href="#"
+                    className="bg-amber-800 p-3 cursor-pointer rounded-lg block border border-zinc-600 hover:bg-amber-600"
+                    href={proyek.web}
                   >
                     Lihat webiste
                   </a>
@@ -249,12 +249,17 @@ function App() {
                 🚀 Quick Connect
               </h2>
               <div className="flex flex-col gap-3 text-gray-300">
-                <p>
+                <p className="break-words sm:break-normal">
                   <span className="font-semibold text-amber-400">
                     📧 Email:
                   </span>{" "}
-                  feriardusbanggur23@gamil.com
-                </p>
+                  <a
+                    href="mailto:feriardusbanggur23@gmail.com"
+                    className="text-gray-300 hover:text-amber-500 break-all"
+                  >
+                    feriardusbanggur23@gmail.com
+                  </a>
+                </p>{" "}
                 <p>
                   <span className="font-semibold text-amber-400">
                     📍 Location:
@@ -294,7 +299,10 @@ function App() {
                 >
                   Instagram <i className="ri-instagram-fill ri-lg"></i>
                 </a>
-                <a className="bg-zinc-700 border cursor-pointer border-zinc-600 rounded-md p-2 text-center hover:bg-amber-600 hover:text-white">
+                <a
+                  href="https://www.youtube.com/@Ktsu-LoF"
+                  className="bg-zinc-700 border cursor-pointer border-zinc-600 rounded-md p-2 text-center hover:bg-amber-600 hover:text-white"
+                >
                   YouTube <i className="ri-youtube-fill ri-lg"></i>
                 </a>
               </div>

@@ -12,16 +12,16 @@ const Footer = () => {
         </p>
       </div>
       <div className="flex items-center gap-4">
-        <a href="#">
+        <a href="https://github.com/TUTURUGA911">
           <i className="ri-github-fill ri-2x"></i>
         </a>
-        <a href="">
+        <a href="linkedin.com/in/feriardus-orlan-banggur-3100b8285">
           <i className="ri-linkedin-box-fill ri-2x"></i>
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/fee_rry/">
           <i className="ri-instagram-fill ri-2x"></i>
         </a>
-        <a href="">
+        <a href="https://www.youtube.com/@Ktsu-LoF">
           <i className="ri-youtube-fill ri-2x"></i>
         </a>
       </div>

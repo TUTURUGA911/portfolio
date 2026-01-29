@@ -108,6 +108,7 @@ export const listTools = [
 
 import Proyek1 from "/assets/proyek/ams-indo.png";
 import Proyek2 from "/assets/proyek/eit.png";
+import Proyek3 from "/assets/proyek/catz.png";
 
 export const listProyek = [
   {
@@ -116,6 +117,7 @@ export const listProyek = [
     nama: "Website AMS Indo",
     desk: "Website PT. Anugerah Mitrautama Sejahtera",
     tools: ["Laravel", "React", "Javascript", "PHP"],
+    web: "https://www.ams-indo.com/",
     dad: "200",
   },
   {
@@ -124,6 +126,17 @@ export const listProyek = [
     nama: "Website EIT",
     desk: "Website EIT (Emoyu IT Developer)",
     tools: ["Laravel", "Tailwind CSS", "Javascript", "PHP"],
+    web: "https://eitdev.id/",
     dad: "300",
+  },
+
+  {
+    id: 3,
+    gambar: Proyek3,
+    nama: "Website Catz",
+    desk: "Website Catz (Catat and Tabung Easy Pezy) Project Pribadi untuk membantu mengatur keuangan",
+    tools: ["Laravel", "Tailwind CSS", "Javascript", "React", "PHP"],
+    web: "https://catzy.my.id/",
+    dad: "400",
   },
 ];
